@@ -48,7 +48,7 @@ The python scripts follow the following state machine:
 6. (Optional) Create an Alexa Routine in the app with whatever key-phrase you want e.g. 'Alexa, Open Seasame!'
 
 ## Prototype
-![alternative prototype](imgs/installed.jpg =200x)
+![alternative prototype](imgs/installed.jpg)
 ![alternative prototype](imgs/LDR-sensors.jpg)
 ![alternative prototype](imgs/prototype.jpg)
 
