@@ -25,7 +25,7 @@ LED lit and ambient light present, or LED lit and no ambient light present.
 5. Update systemd `sudo systemctl daemon-reload && sudo systemctl enable fauxmo.service && sudo system enable garage.door.service`
 6. Start the services `sudo systemctl start fauxmo.service && sudo systemctl start garage.door.service`
 
-### Wiring & Components
+## Wiring & Components
 This project uses:
 * 1 x Raspberry Pi
 * 2 x Light Dependent Resistors (LDR) RD3485 (Dark Resistance: 0.5M Ohms/min, Light Resistance: 2.8k Ohms/min)
@@ -34,7 +34,9 @@ This project uses:
 * Wire & Solder
 * Prototyping Breadboard
 
-### Door Logic
+**TODO - Diagram on its way shortly!**
+
+## Door Logic
 The python scripts follow the following state machine:
 
 ![alternative diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SuperEvenSteven/alexa-smart-garage/master/state_diagram.puml)
