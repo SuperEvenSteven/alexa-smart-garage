@@ -1,4 +1,4 @@
-# alexa-fauxmo-garage-door
+# alexa-smart-garage
 A Python example of an alexa controlled garage door using a Rapsberry Pi running fauxmo. 
 
 ## How it works
