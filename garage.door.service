@@ -1,0 +1,13 @@
+[Unit]
+Description=Garage Door Status
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /home/pi/garage_status.py
+Restart=on-failure
+User=pi
+
+[Install]
+WantedBy=multi-user.target

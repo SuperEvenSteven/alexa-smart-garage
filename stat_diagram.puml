@@ -1,0 +1,12 @@
+@startuml
+scale 300 width
+[*] --> DoorOpen
+DoorOpen --> DoorClosing
+DoorClosed --> DoorOpening
+DoorClosing --> DoorStopped
+DoorOpening --> DoorOpen
+DoorClosing --> DoorClosed
+DoorOpening --> DoorStopped
+DoorStopped --> DoorOpening
+DoorStopped --> DoorClosing
+@enduml
