@@ -22,7 +22,7 @@ LED lit and ambient light present, or LED lit and no ambient light present.
 2. Clone the [fauxmo](https://github.com/n8henrie/fauxmo.git) and [fauxmo-plugins](https://github.com/n8henrie/fauxmo-plugins.git) git projects to the /home/pi location
 3. Clone [this repository](https://github.com/SuperEvenSteven/alexa-smart-garage.git) in your `/home/pi` directory.
 4. Copy the `fauxmo.service` and `garage.door.service` files to `/etc/systemd/system/` (you will need sudo do do this)
-5. Update systemd `sudo systemctl daemon-relaod && sudo systemctl enable fauxmo.service && sudo system enable garage.door.service`
+5. Update systemd `sudo systemctl daemon-reload && sudo systemctl enable fauxmo.service && sudo system enable garage.door.service`
 6. Start the services `sudo systemctl start fauxmo.service && sudo systemctl start garage.door.service`
 
 ### Door Logic
