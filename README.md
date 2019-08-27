@@ -25,6 +25,15 @@ LED lit and ambient light present, or LED lit and no ambient light present.
 5. Update systemd `sudo systemctl daemon-reload && sudo systemctl enable fauxmo.service && sudo system enable garage.door.service`
 6. Start the services `sudo systemctl start fauxmo.service && sudo systemctl start garage.door.service`
 
+### Wiring & Components
+This project uses:
+* 1 x Raspberry Pi
+* 2 x Light Dependent Resistors (LDR) RD3485 (Dark Resistance: 0.5M Ohms/min, Light Resistance: 2.8k Ohms/min)
+* 2 x 1uf Capacitors
+* 1 x 5v relay switch
+* Wire & Solder
+* Prototyping Breadboard
+
 ### Door Logic
 The python scripts follow the following state machine:
 
@@ -38,9 +47,14 @@ The python scripts follow the following state machine:
 5. It will appear as Garage Door and only have on/off keyword capability. i.e. 'Alexa, turn on Garage Door'
 6. (Optional) Create an Alexa Routine in the app with whatever key-phrase you want e.g. 'Alexa, Open Seasame!'
 
+## Prototype
+![alternative prototype](imgs/installed.jpg =200x)
+![alternative prototype](imgs/LDR-sensors.jpg)
+![alternative prototype](imgs/prototype.jpg)
 
 ### References
 * https://github.com/n8henrie/fauxmo/blob/master/README.md
+* https://github.com/n8henrie/fauxmo-plugins/blob/master/README.md
 * https://raspberrypi.stackexchange.com/questions/83610/gpio-pinout-orientation-raspberypi-zero-w
 * https://pimylifeup.com/raspberry-pi-light-sensor/
 * http://www.piddlerintheroot.com/5v-relay/
