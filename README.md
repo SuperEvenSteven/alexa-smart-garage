@@ -28,8 +28,7 @@ LED lit and ambient light present, or LED lit and no ambient light present.
 ### Door Logic
 The python scripts follow the following state machine:
 
-![alternative text](http://www.plantuml.com/plantuml/proxy?src=file:///stat_diagram.puml)
-
+![alternative text](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SuperEvenSteven/alexa-smart-garage/master/state_diagram.puml)
 
 ## Alexa, open/close garage door
 1. With the Alexa device on the same network as the Raspberry Pi, Open the Alexa app and select add a device
