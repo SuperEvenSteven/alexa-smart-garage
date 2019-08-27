@@ -9,8 +9,8 @@
                 {
                     "name": "Garage Door",
                     "port": "49915",
-                    "on_cmd": "python /home/pi/garage_door_btn.py --open",
-                    "off_cmd": "python /home/pi/garage_door_btn.py --close",
+                    "on_cmd": "python /home/pi/alexa-smart-garage/garage_door_btn.py --open",
+                    "off_cmd": "python /home/pi/alexa-smart-garage/garage_door_btn.py --close",
                     "state_cmd": "ls /home/pi/garage_is_open"
                 }
             ]

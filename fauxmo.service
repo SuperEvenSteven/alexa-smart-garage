@@ -7,7 +7,7 @@ Wants=network.target
 Type=simple
 WorkingDirectory=/home/pi/fauxmo
 # Fix the paths below:
-ExecStart=/home/pi/fauxmo/.venv/bin/fauxmo -c /home/pi/config.json -v
+ExecStart=/home/pi/fauxmo/.venv/bin/fauxmo -c /home/pi/alexa-smart-garage/config.json -v
 Restart=on-failure
 User=pi
 

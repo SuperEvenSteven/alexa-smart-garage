@@ -5,7 +5,7 @@ Wants=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python /home/pi/garage_status.py
+ExecStart=/usr/bin/python /home/pi/alexa-smart-garage/garage_status.py
 Restart=on-failure
 User=pi
 

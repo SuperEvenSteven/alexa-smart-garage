@@ -59,8 +59,7 @@ if __name__ == '__main__':
             else:
                 print("ignoring since garage is already open or in transit")
         elif "--close" in sys.argv:
-            if os.path.exists('/home/pi/garage_is_open') and not os.path.exists(
-                    '/home/pi/garage_is_moving'):
+            if garage_is_open() and not garage_is_moving():
                 Path('/home/pi/garage_is_moving').touch()
                 press_button()
                 print("garage button pressed (closing)")
