@@ -2,10 +2,10 @@
 A Python example of an Alexa controlled garage door using a Rapsberry Pi posing as a Belkin WeMo switch. 
 
 ## How it works
-The Raspberry Pi poses as a Belkin WeMo switch using the Fauxmo service which can be detected by an Amazon Alexa device 
-without the need of an IoT Alexa Skill and app. This allows Alexa to perform on, off commands as well as query the 
-status of the Fauxmo switch. The Fauxmo service is configured (see config.json) to run the garage_door_btn.py script to
-open/close the garage door and the garage_status.py to get the status of the door. i.e. is it open or closed?
+The Raspberry Pi poses as a Belkin WeMo switch using the Fauxmo service. The Fauxmo service allows the Raspberry Pi to be detected by an Amazon Alexa device without the need of an IoT Alexa Skill and app. This allows Alexa to perform on, off 
+commands as well as query the status of the Fauxmo switch. The Fauxmo service is configured (see config.json) to run the
+garage_door_btn.py script to open/close the garage door and the garage_status.py to get the status of the door. i.e. is 
+it open or closed?
 
 ### Triggering the Door
 The Raspberry Pi is connected to a relay switch that grounds the OSC (Open/Stop/Close) input port of the garage door
