@@ -42,6 +42,8 @@ This project uses:
 * Wire & Solder
 * Prototyping Breadboard
 
+**Note:** The black and red wires coming from the top of the relay switch are connected to the GND and OSC terminals on the garage door opener.
+
 ![alternative diagram](imgs/wiring-diagram_bb.png)
 
 ## Door Logic
