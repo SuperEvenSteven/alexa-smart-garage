@@ -25,6 +25,14 @@ LED lit and ambient light present, or LED lit and no ambient light present.
 5. Update systemd `sudo systemctl daemon-reload && sudo systemctl enable fauxmo.service && sudo system enable garage.door.service`
 6. Start the services `sudo systemctl start fauxmo.service && sudo systemctl start garage.door.service`
 
+## Alexa, open/close garage door
+1. With the Alexa device on the same network as the Raspberry Pi, Open the Alexa app and select add a device
+2. Select Other Devices
+3. Wait for the app to finish scanning
+4. The Belkin WeMo Switch should be detected
+5. It will appear as Garage Door and only have on/off keyword capability. i.e. 'Alexa, turn on Garage Door'
+6. (Optional) Create an Alexa Routine in the app with whatever key-phrase you want e.g. 'Alexa, Open Seasame!'
+
 ## Wiring & Components
 This project uses:
 * 1 x Raspberry Pi
@@ -34,20 +42,12 @@ This project uses:
 * Wire & Solder
 * Prototyping Breadboard
 
-**TODO - Diagram on its way shortly!**
+![alternative diagram](imgs/wiring-diagram_bb.png)
 
 ## Door Logic
 The python scripts follow the following state machine:
 
 ![alternative diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SuperEvenSteven/alexa-smart-garage/master/state_diagram.puml)
-
-## Alexa, open/close garage door
-1. With the Alexa device on the same network as the Raspberry Pi, Open the Alexa app and select add a device
-2. Select Other Devices
-3. Wait for the app to finish scanning
-4. The Belkin WeMo Switch should be detected
-5. It will appear as Garage Door and only have on/off keyword capability. i.e. 'Alexa, turn on Garage Door'
-6. (Optional) Create an Alexa Routine in the app with whatever key-phrase you want e.g. 'Alexa, Open Seasame!'
 
 ## Prototype
 ![alternative prototype](imgs/installed.jpg)
