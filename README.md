@@ -47,7 +47,7 @@ This project uses:
 ## Door Logic
 The python scripts follow the following state machine:
 
-![alternative diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SuperEvenSteven/alexa-smart-garage/master/state_diagram.puml)
+![alternative diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/SuperEvenSteven/alexa-smart-garage/master/diagrams/state_diagram.puml)
 
 ## Prototype
 ![alternative prototype](imgs/installed.jpg)
